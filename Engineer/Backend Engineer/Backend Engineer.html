@@ -1,0 +1,383 @@
+
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns#">
+  <title>Job Application for Backend Engineer at Monzo</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"67fa338dfa","applicationID":"15769566","transactionName":"IVpXTRMLXgoBQRZSVwBGFkoJC0U=","queueTime":1,"applicationTime":9,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQ4PWFNbGwIFU1dbAgcB"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);</script>
+  <meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta id="rendered-by" content="jben" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+  <script>
+//<![CDATA[
+
+    var environment = 'production';
+
+//]]>
+</script>    <script src="https://boards-cdn.greenhouse.io/assets/config/rollbar-1cda52b98bf849afc1939c3ff2f6498e66347928ab6d9a6a643ba6f2850d43a6.js"></script>
+  <link rel="stylesheet" media="all" href="https://boards-cdn.greenhouse.io/assets/application-e78d11beafe1220ca074f182d29d981b5397563095d3b0c006c96ea5b9030440.css" />
+<link rel="stylesheet" media="all" href="https://boards-cdn.greenhouse.io/assets/responsive-eaf0f2fee96b9e5d437904bbc8804e8ec1bd4ab6c79e1efcd2f7161156c83b67.css" />
+  <script class="js-metadata" data-key="hideCaptcha" data-type="boolean" data-value="false" type="text/configuration"></script>
+    <meta property="og:title" content="Backend Engineer"></meta>
+    <meta property="og:description" content="London"></meta>
+    <meta property="og:url" content="https://boards.greenhouse.io/monzo/jobs/244898"></meta>
+    <meta property="og:image" content="https://s3.amazonaws.com/prod-heroku/external_greenhouse_job_boards/logos/000/005/589/original/Monzo_horz_lightbg.png?1472286173"></meta>
+
+      <link rel="stylesheet" media="screen" href="https://monzo.com/static/css/greenhouse.css" />
+<script class="js-metadata" data-key="JBEN.linkedin_csrf" data-type="string" data-value="3e8db6cd68227c925c782737" type="text/configuration"></script><script class="js-metadata" data-key="JBEN.host" data-type="string" data-value="https://boards.greenhouse.io" type="text/configuration"></script><script class="js-metadata" data-key="JBEN.internalBoardsHost" data-type="string" data-value="https://app.greenhouse.io" type="text/configuration"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="main">
+      
+
+
+<div id='app_body' style='padding-left:20px'>
+    <div id="logo"><a target="_blank" href="https://monzo.com"><img src="https://s3.amazonaws.com/prod-heroku/external_greenhouse_job_boards/logos/000/005/589/resized/Monzo_horz_lightbg.png?1472286173" alt="Monzo horz lightbg" width="200" height="45" /></a></div>
+
+    <div id="header">
+        <a href='#app' id='apply_button' class='button'>
+          Apply Now
+        </a>
+
+      <h1 class='app-title'>Backend Engineer</h1>
+      <span class='company-name'>
+        at Monzo
+      </span>
+
+      <a data-mapped="true" href="/monzo">(View all jobs)</a>
+
+      <div class='location'>
+        London
+      </div>
+</div>
+    <div id="content" class="">
+      <p><em>We're also offering paid engineering internships.</em></p>
+<p>At Monzo we aim to build the <a href="https://monzo.com">best current account in the world</a>. We are always keen to hear from capable, creative engineers who want to help us accomplish that goal.</p>
+<p>Our backend engineering team have a variety of different backgrounds: we have several non-graduates; only a couple of us studied Computer Science; one of the team has a degree in Marketing; some of us have worked in huge companies; some have only ever worked in startups; others are former consultants. As long as you enjoy learning new things, we’d love to talk to you.</p>
+<p>We work in project-based sprints, and take turns to be the floating engineer who handles interrupt-driven work and non-critical bug fixes. We work directly with everyone across the company, from customer support to regulation, product to financial crime, and we run regular knowledge-sharing sessions so you’ll learn heaps about everything from how banks work to effective communication.</p>
+<p>We encourage an open and transparent working environment. You can get involved in any aspect of the business you are interested in and, <a href="https://stripe.com/blog/email-transparency">following Stripe’s example</a>, all emails in the company are visible in an email archive. We regularly run hackathons in which people build things on our third party API and <a href="https://github.com/monzo">we contribute to open source software as much as possible</a>. We’ve also made <a href="https://trello.com/b/9tcaMB4w/mondo-transparent-product-roadmap">our product roadmap public</a> and give sneak peeks of features in <a href="https://community.getmondo.co.uk/">our community forum</a>.</p>
+<p>If you’re unsure about applying or have any questions about the role or team, please don’t hesitate to email our CTO Jonas (<a href="mailto:jonas@monzo.com">jonas@monzo.com</a>) directly :) We're very open about what we do in general, so <a href="https://monzo.com/blog">our blog</a> is a good place to learn more about what we do.</p>
+<h3>Things we are working on</h3>
+<p>We’re still a relatively small company with only 15 people in the backend engineering team and 60 people in total. This means you will need to wear many hats in the beginning but it also means there are many interesting challenges ahead that you can specialise in if you like. Broadly, the work we’re doing covers these areas:</p>
+<h4>Distributed platform: We aim to be the first bank without a single point of failure</h4>
+<p>We are building a state-of-the-art microservices platform based on the learnings of Netflix, Twitter, and Google. We're investing a lot of up-front effort in building a scalable, secure, and extensible architecture. We've posted a <a href="https://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/">good overview of our platform on our blog</a>.</p>
+<h4>Banking and payments: We write code that moves money</h4>
+<p>Between integrating with crufty old payment schemes, connecting to legacy systems from the 1970s, and designing our own core banking ledger, at Monzo we get to see how the financial sausage is made! If you were ever curious about how money flows through the financial systems or wanted to write code to move money in a safe way, this is your chance.</p>
+<h4>Product engineering: We help our customers by hiding the boring parts of money management</h4>
+<p>On the user-facing side, we take complicated regulations around things like lending, identity verification, and financial advice and reduce them to something our customers can use with ease, so they can focus on the rest of their life. We have built a powerful analytics pipeline to help us understand how our users use our apps and how we can make them more intuitive.</p>
+<h4>Financial crime: We need to stay ahead of criminals trying to steal data and money</h4>
+<p>We do a lot of work around fraud and electronic crime, using a mix of machine learning models, discrete rules, human review, and clever product features to fight back. You’d work closely with our regulation team, analytics, customer support, and fraud investigators to make sure we’re doing everything we can to fight against financial crime.</p>
+<h4>Internal tooling: We automate everything so the rest of the team can work smarter</h4>
+<p>Our mobile app is just the tip of the iceberg that we’re building. A huge part of our competitive advantage comes from internal tools and processes that are not visible from the outside. This is why we’re able to provide exceptional, fast support to all of our users. Behind the scenes we have built a state-of-the-art operations platform that facilitates card dispatch, customer support, regulatory reporting, audit, and much more. We aim to automate as much as possible and enable everyone in the team to be really efficient by using highly specialised UIs and assisting them with AI where we can.</p>
+<h3>Our technology stack</h3>
+<p>At Monzo you will get to work with a lot of exciting new technology. We rely heavily on the following tools and technologies:</p>
+<ul>
+<li><a href="http://golang.org">Go</a> to write our application code (<a href="https://tour.golang.org/welcome/1">there is an excellent interactive Go tutorial here</a>)</li>
+<li><a href="http://cassandra.apache.org/">Cassandra</a> for most persistent data storage</li>
+<li><a href="http://kafka.apache.org/">Kafka</a> for our asynchronous message queue</li>
+<li><a href="https://linkerd.io/">Linkerd</a>/<a href="https://twitter.github.io/finagle/">Finagle</a> for RPC</li>
+<li><a href="http://kubernetes.io/">Kubernetes</a> and <a href="https://www.docker.com/">Docker</a> to schedule and run our services</li>
+<li><a href="http://aws.amazon.com/">AWS</a> for most of our infrastructure</li>
+<li><a href="https://facebook.github.io/react/">React</a> for internal web dashboards</li>
+<li>We also have two physical datacenter sites with actual cables to connect to various third parties :)</li>
+</ul>
+<h3>You should apply if:</h3>
+<ul>
+<li>the work we’re doing sounds exciting!</li>
+<li>you want to be involved in building a product that you and everyone you know uses literally every day</li>
+<li>you’re keen to learn more about new technologies and the arcane inner workings of the financial industry</li>
+<li>you’re comfortable working in a team that deals with ambiguity every day</li>
+<li>you’re interested in distributed systems and writing resilient software</li>
+<li>you have some experience with strongly-typed languages (e.g. Go, Java, C, Scala…)</li>
+</ul>
+<h3>Logistics</h3>
+<p>We can help you relocate to London, we can sponsor visas, and we're open to remote working as long as you can spend around 20% of your time in London.</p>
+<p>Our interview process consists of an initial phone screen, a take-home code test, and a half-day on-site interview. We promise not to ask you any brain teasers or trick questions, and we won't make you code on a whiteboard!</p>
+<p>We are continually looking for new backend engineers, but prefer to batch interviews when possible. If you are under time pressure to change jobs soon, please let us know by when you need a decision in your application.</p>
+</div>
+  <div id='application'>
+    <a name='app'></a>
+    <form id="application_form" enctype="multipart/form-data" action="https://boards.greenhouse.io/monzo/jobs/244898" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <input type="hidden" name="fingerprint" id="fingerprint" value="022220a9c526b597addc33ccf6205dcc936b0985" />
+      <input type="hidden" name="render_date" id="render_date" value="2017-01-10 10:50:38 -0500" />
+
+
+      <div id='main_fields'>
+        <div class='heading'>Apply for this Job</div>
+        <div class='required-fields'>
+          <span class='asterisk'>*</span> Required
+        </div>
+
+        <div class='clear'></div>
+
+          
+<div class='apply-with-linkedin'>
+  <span></span>
+  <div class='apply-button hide-linkedin-button'>
+    <span></span>
+    <div>
+      <span></span>
+      <div class='apply-with-linkedin'>
+        <button name="button" type="button" class="apply-with-linkedin-button" data-linkedin-key="75t5iy2bwt27ef" data-linkedin-redirect="https://boards.greenhouse.io/apply/linkedin"></button>
+      </div>
+    </div>
+
+    <div class='linkedin-apply-optional'><small>(Optional)</small></div>
+  </div>
+
+  <div class='almost-there'>Almost there! Review your information then click &#39;Submit Application&#39; to apply.</div>
+</div>
+
+          <hr/>
+
+        <div class='field'>
+          <label for='first_name'>First Name <span class='asterisk'>*</span></label>
+          <input type='text' id='first_name' name='job_application[first_name]'/>
+        </div>
+        <div class='field'>
+          <label for='last_name'>Last Name <span class='asterisk'>*</span></label>
+          <input type='text' id='last_name' name='job_application[last_name]'/>
+        </div>
+        <div class='field'>
+          <label for='email'>Email <span class='asterisk'>*</span></label>
+          <input type='text' id='email' name='job_application[email]'/>
+        </div>
+        <div class='field'>
+          <label for='phone'>Phone <span class='asterisk'>*</span></label>
+          <input type='text' id='phone' name='job_application[phone]' required='required'/>
+        </div>
+
+
+        <div class='field'>
+          <label>Resume/CV</label>
+          
+<div class="attach-or-paste " data-allow-s3="true" data-field="resume" data-file-types="[&quot;pdf&quot;,&quot;doc&quot;,&quot;docx&quot;,&quot;txt&quot;,&quot;rtf&quot;]" data-model="job_application">
+
+  <div class="drop-zone hidden">
+    Drop files here
+  </div>
+
+  <div id="resume_chosen" class="chosen">
+    <img src="https://boards-cdn.greenhouse.io/assets/file-72a3a725025753f50d86728a02b8b3aee9618285adc9237fc25674ef3e644548.png" alt="File" />&nbsp;&nbsp;
+    <span id="resume_filename"></span>
+    <a href="#" class="remove">
+      <img width="11" height="11" src="https://boards-cdn.greenhouse.io/assets/cancellation/x-12555e56df607c430a787d26174debcb4f69e290bcb46699a46da000912226d8.png" alt="X" />
+    </a>
+</div>
+  <div class="link-container">
+    <a data-source="attach" href="#">Attach</a>
+
+      <a data-source="dropbox" href="#">Dropbox</a>
+      <a data-source="google-drive" href="#">Google Drive</a>
+
+      <a data-source="paste" href="#">Paste</a>
+</div>  <div data-messages="uploaders"></div>
+
+  <div class="validation-anchor" style="display: none"></div>
+
+  <div class="progress-bar">
+    <div class="upload">
+      <div class="progress"><div class="bar" style="width: 0%"></div></div>
+    </div>
+    <a href="#" class="cancel">
+      <img width="11" height="11" src="https://boards-cdn.greenhouse.io/assets/cancellation/x-12555e56df607c430a787d26174debcb4f69e290bcb46699a46da000912226d8.png" alt="X" />
+    </a>
+</div>
+    <textarea name="job_application[resume_text]" id="resume_text" class="paste">
+</textarea>
+
+</div>
+
+        </div>
+        <div class='field' >
+          <label>Cover Letter</label>
+          
+<div class="attach-or-paste " data-allow-s3="true" data-field="cover_letter" data-file-types="[&quot;pdf&quot;,&quot;doc&quot;,&quot;docx&quot;,&quot;txt&quot;,&quot;rtf&quot;]" data-model="job_application">
+
+  <div class="drop-zone hidden">
+    Drop files here
+  </div>
+
+  <div id="cover_letter_chosen" class="chosen">
+    <img src="https://boards-cdn.greenhouse.io/assets/file-72a3a725025753f50d86728a02b8b3aee9618285adc9237fc25674ef3e644548.png" alt="File" />&nbsp;&nbsp;
+    <span id="cover_letter_filename"></span>
+    <a href="#" class="remove">
+      <img width="11" height="11" src="https://boards-cdn.greenhouse.io/assets/cancellation/x-12555e56df607c430a787d26174debcb4f69e290bcb46699a46da000912226d8.png" alt="X" />
+    </a>
+</div>
+  <div class="link-container">
+    <a data-source="attach" href="#">Attach</a>
+
+      <a data-source="dropbox" href="#">Dropbox</a>
+      <a data-source="google-drive" href="#">Google Drive</a>
+
+      <a data-source="paste" href="#">Paste</a>
+</div>  <div data-messages="uploaders"></div>
+
+  <div class="validation-anchor" style="display: none"></div>
+
+  <div class="progress-bar">
+    <div class="upload">
+      <div class="progress"><div class="bar" style="width: 0%"></div></div>
+    </div>
+    <a href="#" class="cancel">
+      <img width="11" height="11" src="https://boards-cdn.greenhouse.io/assets/cancellation/x-12555e56df607c430a787d26174debcb4f69e290bcb46699a46da000912226d8.png" alt="X" />
+    </a>
+</div>
+    <textarea name="job_application[cover_letter_text]" id="cover_letter_text" class="paste">
+</textarea>
+
+</div>
+
+        </div>
+      </div>
+
+        <hr/>
+        <div id='custom_fields'>
+          <div class="field">
+  <label>What attracted you to Monzo?<span class="asterisk">&nbsp;*</span>
+    <br/>
+    
+    <input type="hidden" name="job_application[answers_attributes][0][question_id]" id="job_application_answers_attributes_0_question_id" value="1628555" />
+<input type="hidden" name="job_application[answers_attributes][0][priority]" id="job_application_answers_attributes_0_priority" value="0" />
+
+<textarea name="job_application[answers_attributes][0][text_value]" id="job_application_answers_attributes_0_text_value" required="required">
+</textarea>
+
+
+</label></div>
+<div class="field">
+  <label>What stack/technologies are you most familiar with?<span class="asterisk">&nbsp;*</span>
+    <br/>
+    
+    <input type="hidden" name="job_application[answers_attributes][1][question_id]" id="job_application_answers_attributes_1_question_id" value="1628556" />
+<input type="hidden" name="job_application[answers_attributes][1][priority]" id="job_application_answers_attributes_1_priority" value="1" />
+
+<input type="text" name="job_application[answers_attributes][1][text_value]" id="job_application_answers_attributes_1_text_value" required="required" />
+
+
+</label></div>
+<div class="field">
+  <label>What&#39;s the most interesting project you&#39;ve worked on recently?<span class="asterisk">&nbsp;*</span>
+    <br/>
+    <span><p>What was the objective? Why it was interesting? What did you learn? We'd love to see links if possible!</p></span>
+    <input type="hidden" name="job_application[answers_attributes][2][question_id]" id="job_application_answers_attributes_2_question_id" value="1629220" />
+<input type="hidden" name="job_application[answers_attributes][2][priority]" id="job_application_answers_attributes_2_priority" value="2" />
+
+<textarea name="job_application[answers_attributes][2][text_value]" id="job_application_answers_attributes_2_text_value" required="required">
+</textarea>
+
+
+</label></div>
+<div class="field">
+  <label>How would you find out if somebody is a good software engineer?<span class="asterisk">&nbsp;*</span>
+    <br/>
+    
+    <input type="hidden" name="job_application[answers_attributes][3][question_id]" id="job_application_answers_attributes_3_question_id" value="1629221" />
+<input type="hidden" name="job_application[answers_attributes][3][priority]" id="job_application_answers_attributes_3_priority" value="3" />
+
+<textarea name="job_application[answers_attributes][3][text_value]" id="job_application_answers_attributes_3_text_value" required="required">
+</textarea>
+
+
+</label></div>
+<div class="field">
+  <label>How did you hear about this job?
+    <br/>
+    
+    <input type="hidden" name="job_application[answers_attributes][4][question_id]" id="job_application_answers_attributes_4_question_id" value="1628557" />
+<input type="hidden" name="job_application[answers_attributes][4][priority]" id="job_application_answers_attributes_4_priority" value="4" />
+
+<input type="text" name="job_application[answers_attributes][4][text_value]" id="job_application_answers_attributes_4_text_value" />
+
+
+</label></div>
+<div class="field">
+  <label>We&#39;re also taking on (paid!) interns: if you&#39;re only available for an internship, let us know your dates here.
+    <br/>
+    
+    <input type="hidden" name="job_application[answers_attributes][5][question_id]" id="job_application_answers_attributes_5_question_id" value="3354089" />
+<input type="hidden" name="job_application[answers_attributes][5][priority]" id="job_application_answers_attributes_5_priority" value="5" />
+
+<input type="text" name="job_application[answers_attributes][5][text_value]" id="job_application_answers_attributes_5_text_value" />
+
+
+</label></div>
+
+        </div>
+
+      
+
+      
+
+      <div id='recaptcha_container'></div>
+
+      <hr/>
+
+      <div id='error_message'></div>
+
+      <div id='submit_buttons'>
+        <input type='button' value='Submit Application' id='submit_app' class='button'>
+      </div>
+</form>  </div>
+
+    <!-- AddThis Button BEGIN -->
+<div style="clear: both"></div>
+<div class="addthis_toolbox addthis_default_style" style="margin: 40px 0">
+  <span style="float: left">Share this job:  &nbsp; </span>
+  <a class="addthis_button_linkedin"></a>
+  <a class="addthis_button_twitter"></a>
+  <a class="addthis_button_tumblr"></a>
+  <a class="addthis_button_email"></a>
+  <a class="addthis_button_facebook"></a>
+  <a class="addthis_button_google_plusone"></a>
+</div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50b8c87f0bb6a4c1"></script>
+<!-- AddThis Button END -->
+
+</div>
+
+
+
+    </div>
+  </div>
+
+    <div id="footer">
+    <span>Powered by</span>&nbsp;<a target="_blank" href="http://www.greenhouse.io/">
+      <img border="0" alt="Greenhouse Logo" id="logo" src="https://boards-cdn.greenhouse.io/assets/greenhouse-in-app-logo-green-c4194ed32a1bcd6d882150b3dd4632f068e7c866ae487e5c8a4d919cafe9166b.png" width="100" height="30" />
+</a>    <div class="privacy-policy">
+      Read our <a href="http://www.greenhouse.io/privacy-policy">Privacy Policy</a>
+    </div>
+  </div>
+
+    <script src="https://boards-cdn.greenhouse.io/assets/application-f1b6da0c9cb377902be092610f9ed2510effbaa0688f24e99f797c3168dd65cb.js"></script>
+
+  <div class="s3-upload-form" data-presigned-form="resume"></div>
+
+  <div class="s3-upload-form" data-presigned-form="cover_letter"></div>
+
+    <script type='text/javascript'>
+      if (typeof _gaq === 'object') {
+        _gaq.push(['_setCustomVar', 1, 'silo_id', '1']);
+        _gaq.push(['_trackEvent', 'job_application', 'view', '244898']);
+      }
+    </script>
+
+<script class="js-metadata" data-key="validate_recaptcha_path" data-type="string" data-value="/captcha/validate" type="text/configuration"></script><script class="js-metadata" data-key="recaptchaPublicKey" data-type="string" data-value="6Lfl4wcTAAAAAIUR9FzXuvgYtyt9GFyhU4HebSJN" type="text/configuration"></script>
+    <script type='text/javascript' src='https://www.google.com/recaptcha/api/js/recaptcha_ajax.js'></script>
+
+    <script type='text/javascript' src='https://www.dropbox.com/static/api/2/dropins.js' id='dropboxjs' data-app-key='mh9jyh4mfwjnfhj'></script>
+
+<script class="js-metadata" data-key="googlePickerDeveloperKey" data-type="string" data-value="AIzaSyCratp6KuOmiXWfR3ABY8azVmw8XFnBl64" type="text/configuration"></script><script class="js-metadata" data-key="googlePickerClientId" data-type="string" data-value="594601915089-7c2994029qkt5qu2tmbppujr9jqrqqrs.apps.googleusercontent.com" type="text/configuration"></script><script class="js-metadata" data-key="googlePickerAppId" data-type="string" data-value="594601915089" type="text/configuration"></script>
+    <script type='text/javascript' src='https://apis.google.com/js/client.js?onload=googleDriveLoader'></script>
+    <script type='text/javascript' src='https://apis.google.com/js/api.js?onload=googlePickerLoader'></script>
+
+<script class="js-metadata" data-key="JBEN.PublicJobBoard.UncacheableAttributes.path" data-type="string" data-value="https://boards.greenhouse.io/uncacheable_attributes.json" type="text/configuration"></script><script class="js-metadata" data-key="LocationControl.Providers.Mapbox.apiKey" data-type="string" data-value="pk.eyJ1IjoiamNtdWxsZXIiLCJhIjoiY2l2YmI2ZG82MDA4bzJ6b3UwNTB1enkycSJ9.oRrvDNk1PKKA76v6qSRFXg" type="text/configuration"></script>
+  
+  
+
+  <script src="https://boards-cdn.greenhouse.io/assets/show_init-f2004f4e9bb0fe92a6a4378e00cdc3c35a045d721767577a0903ba192f123da0.js"></script>
+</body>
+</html>
